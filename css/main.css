@@ -44,12 +44,24 @@ body {
   max-width: 46px;
 }
 
-.robot-head-right,
-.robot-head-left {
+.robot-head-right {
   width: 125px;
+  position: absolute;
+  overflow: hidden;
+  top: 2em;
+  left: 57.5%;
+  transform: translateX(-57.5%);
+  width: 100%;
+  max-width: 128px;
 }
 
-.robot-head-right {
-  position: relative;
-  right: 10em;
+.robot-head-left {
+  width: 125px;
+  position: absolute;
+  top: 2em;
+  overflow: hidden;
+  left: 42.5%;
+  transform: translateX(-42.5%);
+  width: 100%;
+  max-width: 128px;
 }
